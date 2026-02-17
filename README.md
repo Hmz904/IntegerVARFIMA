@@ -155,7 +155,7 @@ n        = 5000                # Series length per replication
 max_lag  = 50                  # Maximum lag for cross-covariance
 ```
 
-Expected runtime: ~5–15 minutes for `n_sims = 100`, `n = 5000`, depending on hardware.
+Expected runtime: ~5 minutes `n_sims = 100`, `n = 5000`, depending on hardware.
 
 ### `StateSpaceVARFIMA.py`
 
@@ -180,7 +180,7 @@ results = monte_carlo_varfima_1d1(
 
 The histogram PDF is saved to the working directory by default. Pass a full path to `plot_histograms(..., pdf_path="path/to/varfima_estimation_histograms.pdf")` to redirect it.
 
-Expected runtime: ~20–60 minutes for `n_sim = 50`, `n = 5000`, depending on optimizer convergence.
+Expected runtime: ~10 minutes for `n_sim = 50`, `n = 5000`, depending on optimizer convergence.
 
 ---
 
