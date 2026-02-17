@@ -2,8 +2,8 @@
 # Integer-Valued VARFIMA: Generation and Estimation
 
 **Companion code repository for:**
-> *Integer-Valued VARFIMA: Generation and Estimation*
-> Under review at *Journal of the American Statistical Association: Theory and Methods*
+> *Integer-Valued VARFIMA: Generation and Estimation:*
+> Now Under review at *Journal of the American Statistical Association: Theory and Methods*
 
 This repository releases two Python scripts demonstrating core theoretical contributions of the paper: the propagation of long-memory dependence structures through mixed-type multivariate processes, and a state-space iterative optimization strategy that resolves the non-identifiable parameter surface arising from the simultaneous estimation of fractional integration and vector moving-average components in VARFIMA models.
 
